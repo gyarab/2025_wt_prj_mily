@@ -39,3 +39,7 @@ a základní strukturou webové aplikace.
 
 wireframe a user flow: 
 ![image](https://github.com/user-attachments/assets/3ce0a52a-589b-466c-804d-746e9645b44c)
+
+
+E-R diagram: 
+![image](https://github.com/user-attachments/assets/be6a7424-847f-4c4f-96a7-e442232cd91f)
