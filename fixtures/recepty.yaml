@@ -1,0 +1,25 @@
+[]
+
+- model: recepty.recept
+  fields:
+    nazev: "Recept 1"
+    popis: "Popis receptu 1"
+    postup: "Postup přípravy receptu 1"
+    cas_pripravy: 30
+    porce: 4
+
+- model: recepty.recept
+  fields:
+    nazev: "Recept 2"
+    popis: "Popis receptu 2"
+    postup: "Postup přípravy receptu 2"
+    cas_pripravy: 45
+    porce: 2
+  
+- model: recepty.recept
+  fields:
+    nazev: "Recept 3"
+    popis: "Popis receptu 3"
+    postup: "Postup přípravy receptu 3"
+    cas_pripravy: 60
+    porce: 4

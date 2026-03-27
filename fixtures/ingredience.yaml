@@ -1,0 +1,19 @@
+[]
+
+- model: app.models.Ingredient
+  fields:
+    name: Sugar
+    quantity: 100
+    unit: grams
+
+- model: app.models.Ingredient
+    fields:
+      name: Flour
+      quantity: 200
+      unit: grams
+
+- model: app.models.Ingredient
+  fields:
+    name: Butter
+    quantity: 50
+    unit: grams

@@ -1,0 +1,19 @@
+[]
+
+- model: app.models.User
+  fields:
+    username: "user1"
+    email: "user1@example.com"
+    password: "password1"
+
+- model: app.models.User
+  fields:
+    username: "user2"
+    email: "user2@example.com"
+    password: "password2"
+
+- model: app.models.User
+  fields:
+    username: "user3"
+    email: "user3@example.com"
+    password: "password3"
