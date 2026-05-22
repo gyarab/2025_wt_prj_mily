@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Playground</title>
+</head>
+<body>
+
+    <h1>API Playground</h1>
+
+    <input type="number" id="receptId" placeholder="ID receptu">
+    <button onclick="loadRecept()">Načíst recept</button>
+
+    <div id="output"></div>
+
+    <script>
+
+        async function loadRecept() {
+
+            const id = document.getElementById("receptId").value;
+
+            const response = await fetch(`/api/recepty/${id}`);
+
+            const data = await response.json();
+
+            document.getElementById("output").innerHTML = `
+                <h2>${data.nazev}</h2>
+                <p>${data.popis}</p>
+            `;
+        }
+
+    </script>
+
+</body>
+</html>
