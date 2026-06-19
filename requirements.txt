@@ -1,2 +1,4 @@
 django
 pyyaml
+django-ninja
+gunicorn
